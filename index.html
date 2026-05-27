@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Proyectos</title>
+  <meta name="description" content="Portafolio de proyectos de desarrollo web con HTML, CSS y JavaScript." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero-section">
+      <div class="hero-card">
+        <div class="hero-avatar">
+          <img src="assets/avatar.png" alt="Retrato de Moon" />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Desarrollador web</p>
+          <h1>Hola, soy <span>Moon</span></h1>
+          <p class="hero-text">Diseño experiencias digitales limpias, accesibles y con rendimiento. Combino HTML semántico, CSS moderno y JavaScript interactivo para crear sitios web que funcionan en cualquier dispositivo.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <button id="themeToggle" class="btn btn-secondary">Modo oscuro</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre-mi" class="section about-section">
+        <div class="section-grid">
+          <div>
+            <span class="section-label">Sobre mí</span>
+            <h2>Biografía</h2>
+            <p>Soy un desarrollador web apasionado por crear sitios intuitivos y elegantes. Me especializo en proyectos front-end que entregan valor real al usuario, con atención al detalle, rendimiento y diseño responsivo.</p>
+            <p>Mi proceso se basa en investigar necesidades, estructurar con buen HTML, estilizar con CSS moderno y añadir interacción útil con JavaScript.</p>
+          </div>
+          <div class="about-highlights">
+            <article>
+              <h3>Diseño UI</h3>
+              <p>Interfaces limpias, jerarquía visual clara y accesibilidad en cada componente.</p>
+            </article>
+            <article>
+              <h3>Front-end</h3>
+              <p>HTML semántico, CSS flexible y JavaScript para experiencias fluidas.</p>
+            </article>
+            <article>
+              <h3>Responsivo</h3>
+              <p>Web adaptativa que funciona igual de bien en móviles, tabletas y escritorio.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section projects-section">
+        <div class="section-header">
+          <span class="section-label">Proyectos</span>
+          <h2>Trabajo reciente</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Landing page</h3>
+            <p>Landing page optimizada con animaciones suaves, botones claros y una estructura basada en conversiones.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          </article>
+          <article class="project-card">
+            <h3>Blog personal</h3>
+            <p>Blog con diseño accesible y lectura fácil, integrado con un sistema de tarjetas y navegación rápida.</p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+          </article>
+          <article class="project-card">
+            <h3>Dashboard interactivo</h3>
+            <p>Panel de control con gráficos, filtros y componentes reutilizables usando JavaScript puro.</p>
+            <div class="project-tags"><span>JS</span><span>UX</span><span>Performance</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact-section">
+        <div class="section-header">
+          <span class="section-label">Contacto</span>
+          <h2>Hablemos</h2>
+        </div>
+        <div class="contact-card">
+          <div class="contact-info">
+            <p>Hola, soy Moon. Estoy disponible para nuevos proyectos y colaboraciones. Envíame un mensaje y te respondo en breve.</p>
+            <ul>
+              <li><strong>Email:</strong> <a href="mailto:hola@tudominio.com">hola@tudominio.com</a></li>
+              <li><strong>Teléfono:</strong> <a href="tel:+50412345678">+504 1234 5678</a></li>
+              <li><strong>Ubicación:</strong> Honduras</li>
+            </ul>
+          </div>
+          <form id="contactForm" class="contact-form" novalidate>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            <p id="formMessage" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <p><strong>Repositorio:</strong> <a href="https://github.com/moonxstarnwn/portfolio" target="_blank" rel="noreferrer">github.com/moonxstarnwn/portfolio</a></p>
+        <p><strong>GitHub Pages:</strong> <a href="https://moonxstarnwn.github.io/portfolio" target="_blank" rel="noreferrer">moonxstarnwn.github.io/portfolio</a></p>
+      </div>
+      <p>Creado con HTML, CSS y JavaScript.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

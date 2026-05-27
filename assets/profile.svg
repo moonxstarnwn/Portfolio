@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title>Avatar de Moon</title>
+  <desc>Retrato ilustrado de Moon con cabello oscuro y traje elegante.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22252b" />
+      <stop offset="100%" stop-color="#4b5563" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6d7b0" />
+      <stop offset="100%" stop-color="#ddb38b" />
+    </linearGradient>
+    <linearGradient id="suitGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="tieGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)" />
+  <circle cx="200" cy="200" r="176" fill="rgba(255,255,255,0.06)" />
+  <circle cx="200" cy="220" r="112" fill="url(#skinGrad)" />
+  <path d="M106 320c0-78 126-90 128-90s128 12 128 90H106z" fill="url(#suitGrad)" />
+  <path d="M160 312l40-96 40 96H160z" fill="#fff" />
+  <path d="M160 312l40-96 40 96H160z" fill="url(#tieGrad)" opacity="0.95" transform="translate(0,12) scale(0.9,1) translate(9,0)" />
+  <path d="M200 100c-36 0-66 34-72 68-2 12 18 22 34 22s44-10 58-10 36 8 46 6c10-2 20-14 18-26-6-36-36-68-84-68z" fill="#0f172a" />
+  <path d="M170 118c24 24 40 24 72 0 0 0-18-40-36-46-18-6-38 18-36 46z" fill="#1f2937" opacity="0.75" />
+  <path d="M148 160c12 26 44 36 80 36s68-8 76-18c-4 24-32 50-76 50s-84-32-80-68z" fill="#0f172a" opacity="0.16" />
+  <circle cx="172" cy="170" r="8" fill="#1f2937" />
+  <circle cx="228" cy="170" r="8" fill="#1f2937" />
+  <path d="M180 200c10 12 24 12 34 0" stroke="#1f2937" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.8" />
+  <circle cx="200" cy="126" r="8" fill="#d9d9d9" opacity="0.12" />
+</svg>
